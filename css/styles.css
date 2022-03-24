@@ -1,8 +1,25 @@
 body {
-  background-color: aliceblue;
+  background-color: beige;
+}
+
+.col-md-6 {
+  margin-top: .25in;
+  background-color: rgb(240, 226, 212);
+  color: rgb(13, 49, 13);
+  border: 3px solid black;
+  padding-bottom: 50px;
+  border-radius: 5% 5%;
+  width: 50%;
+  height: 450px;
+  float: center;
 }
 
 h1 {
   margin: 20px;
-  text-align: center;
+  text-align: left;
+}
+
+#output {
+  display: block;
+  margin-top: 5px;
 }
